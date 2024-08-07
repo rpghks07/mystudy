@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/C/src/chap02/ex01.c" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/C/src/chap02/ex03.c" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/C/src/chap02/ex04.c" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/C/src/chap03/add1.c" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/C/src/chap03/add2.c" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/C/src/chap03/circle.c" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/C/src/chap03/deposit.c" charset="x-windows-949" />
+  </component>
+</project>

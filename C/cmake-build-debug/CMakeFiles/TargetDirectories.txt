@@ -1,0 +1,3 @@
+C:/Users/rpghk/OneDrive/바탕 화면/mystudy/C/cmake-build-debug/CMakeFiles/C.dir
+C:/Users/rpghk/OneDrive/바탕 화면/mystudy/C/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/rpghk/OneDrive/바탕 화면/mystudy/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

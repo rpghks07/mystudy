@@ -47,11 +47,21 @@ const emailInput = document.getElementById('email');
 const title = document.querySelector('h2');
 //Form Event
 form.addEventListener('submit', handleEvent);
+emailInput.addEventListener('keydown', handleEvent);
+emailInput.addEventListener('keyup', handleEvent);
+emailInput.addEventListener('keypress', handleEvent);
+emailInput.addEventListener('focus', handleEvent);
+emailInput.addEventListener('blur', handleEvent);
+emailInput.addEventListener('cut', handleEvent);
 
 
 
 function handleEvent(e) {
-    e.preventDefault();
+    if (e.type == 'submit') {
+        e.preventDefault();
+    }
+
     console.log(`Event Type: ${e.type}`);
-    title.textContent = `MouseX: ${e.offsetX} MouseY: ${e.offsetY}`;
+    // title.textContent = `MouseX: ${e.offsetX} MouseY: ${e.offsetY}`;
+    title.textContent = e.target.value;
 }
