@@ -28,3 +28,27 @@
 // }
 //
 // const audio = new Audio('에이');
+
+// const audio = {
+//     title: 'audio',
+//     categories: ['rock', 'pop', 'hiphop', 'jazz'],
+//     displayCategories() {
+//         this.categories.forEach(function (category) {
+//             console.log(`title: ${this.title}, category: ${category}`);
+//         }, this);
+//     }
+// }
+//
+// audio.displayCategories();
+
+const audio = {
+    title: 'audio',
+    categories: ['rock', 'pop', 'hiphop', 'jazz'],
+    displayCategories() {
+        this.categories.forEach((category) => {
+            console.log(this);
+        })
+    }
+}
+
+audio.displayCategories();
